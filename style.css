@@ -1,0 +1,149 @@
+:root{
+    --blue-mint: #7091F5;
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0.1);
+    --border:  2rem solid rgba(0,0,0.1);
+    --outline: .1rem solid rgba(0,0,0.1);
+}
+
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+h2{
+    font-size: 30px;
+    color: #130f40;
+    font-weight: 300;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background: #eee;
+}
+
+.header{
+    border: 2px solid;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: var(--black);
+    font-weight: 700;
+}
+
+.header .navbar a:hover{
+    color: var(--blue-mint);
+    font-size: 2.2rem;
+
+}
+
+.icons img{
+    height: 50px;
+    width: 50px;
+    margin: 0 1rem;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icons img:hover{
+    border: 1px #130f40 solid ;
+    background-color: var(--blue-mint);
+    padding: 7px;
+}
+
+.banner img{
+    position: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 112px;
+    width: 1300px;
+}
+
+
+
+.product {
+	display: inline-block;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid var(--light-color);
+    border-radius: 8px;
+	text-align: center;
+    cursor: pointer;
+}
+
+.product img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.product:hover{
+	transform: scale(1.01); 
+}
+
+.product p {
+    font-size: 15px;
+	margin: 0;
+}
+
+.product button {
+	background-color: var(--light-color);
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 10px;
+	cursor: pointer;
+    border-radius: 5px;
+    border: 1.5px #130f40 solid;
+
+}
+
+.product button:hover {
+	background-color: var(--blue-mint);
+}
+
+.li-produces{
+    padding-left: 10rem;
+}
