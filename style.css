@@ -37,7 +37,7 @@ body{
 }
 
 .header{
-    border: 2px solid;
+    border: 2px 0px solid;
     position: relative;
     top: 0;
     left: 0;
@@ -70,6 +70,7 @@ body{
 
 }
 
+
 .icons img{
     height: 50px;
     width: 50px;
@@ -98,7 +99,7 @@ body{
 
 .product {
 	display: inline-block;
-	width: 200px;
+	width: 22%;
 	margin: 10px;
 	padding: 10px;
 	background-color: white;
@@ -146,4 +147,46 @@ body{
 
 .li-produces{
     padding-left: 10rem;
+}
+
+.icons__search-box{
+    height: 50px;
+    font-size: medium;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid var(--black) ;
+    justify-self: center;
+    padding: 5px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    border: 2px 0px solid;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 2rem 9%;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    align-items: first baseline;
+}
+
+.footer__item{
+    width: 25%;
+}
+
+.footer__item p{
+    font-size: medium;
+    margin: 10px 0px;
+    font-size: 17px;
+}
+
+.footer__item .ft--title{
+    font-size: 23px;
+    font-weight: 700;
+    color: #130f40;
 }
